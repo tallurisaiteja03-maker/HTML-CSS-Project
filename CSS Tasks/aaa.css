@@ -1,0 +1,120 @@
+    .nav-links{
+        padding: 5px;
+    }
+    .hero-text h2{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .formation p{
+        padding: 2px;
+        margin: 2px;
+    }
+    .hero-image img{
+        width: 100%;
+        margin: 10px;
+    }
+    .profile-section{
+        width: 100%;
+    }
+    .profile-image img{
+        margin: 10px;
+        width: 95%;
+    }
+    .profile-text p{
+        padding: 10px;
+    }
+    .intro-section h1{
+        margin: 7px;
+        padding: 7px;
+        font-size: 32px;
+    }
+    .stats-section h2{
+        font-size: 32px;
+    }
+    .build-section{
+        display: grid;
+    }
+    .left-text{
+        width: 100%;
+    }
+    .service-image{
+        margin: 9px;
+    }
+    .services-image{
+        margin: 9px;
+    }
+    .form-btn{
+        margin: 7px;
+        padding: 7px;
+    }
+    .stats-section{
+        margin: 8px;
+        padding: 8px;
+    }
+    .stats-section h2{
+        font-size: 25px;
+        width: 100%;
+    }
+    .parent{
+        display: grid;
+        margin: 10px;
+    }
+    .last-image img{
+        width: 100%;
+        margin: 10px;
+    }
+    .choose-us-content h2{
+        font-size: 32px;
+        margin: 10px;
+    }
+    .internet{
+        display: grid;
+        width: 100%;
+    }
+    .icon{
+        padding: 10px;
+    }
+    .testimonials-header h1{
+        font-size: 32px;
+    }
+    .testimonials-header p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .testimonial-row{
+        display: grid;
+        margin: 2px;
+        padding: 8px;
+    }
+    .testimonials-row{
+        display: grid;
+        margin: 2px;
+        padding: 8px;
+    }
+    .client-name{
+        padding: 10px;
+        margin: 10px;
+    }
+    .employee-section{
+        display: grid;
+        margin: 10px;
+    }
+    .name{
+        padding: 10px;
+    }
+    .person{
+        padding: 10px;
+    }
+    .company-name{
+        padding: 10px;
+        font-size: 32px;
+    }
+    .row{
+        display: grid;
+        margin: 10px;
+        width: 100%;
+    }
+    input,textarea{
+        width: 100%;
+        margin-right: 10%;
+    }

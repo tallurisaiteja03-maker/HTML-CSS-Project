@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>signUp-box</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 135vh;
+      margin: 0;
+      background-color: #f3f9f2;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .header button {
+      background-color: red;
+      color: black;
+      font-style: italic;
+      padding: 10px 15px;
+      border: none;
+      margin-right: 10px;
+    }
+    h2 {
+      margin: 0;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+    .checkbox {
+      margin-top: 10px;
+    }
+    .submit-button {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <button type="SignUp" style="display: block; margin:20px auto;">SignUp</button>
+    </div>
+
+    <form>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" placeholder="Enter your first name">
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" placeholder="Enter your last name">
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+
+      <label for="city">City:</label>
+      <select id="city">
+        <option>--Select City--</option>
+        <option>Hyderabad</option>
+        <option>Chennai</option>
+        <option>Bangalore</option>
+        <option>Mumbai</option>
+      </select>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <label for="confirm">Confirm Password:</label>
+      <input type="password" id="confirm" placeholder="Confirm your password">
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" placeholder="dd/mm/yyyy">
+
+      <div class="checkbox">
+        <input type="checkbox" id="terms">
+        <label for="terms">I acknowledge the terms and conditions</label>
+      </div>
+
+      <div class="submit-button">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
